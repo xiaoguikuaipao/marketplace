@@ -1,0 +1,16 @@
+name: 'goods_web'
+port: '8022'
+tags: ['myshop', 'goods_web']
+goods_srv:
+    name: 'goods_srv'
+
+jwt:
+    key: 'XyzTest'
+
+redis:
+    host: '192.168.224.128'
+    port: 6379
+
+consul:
+    host: '192.168.224.128'
+    port: 8500

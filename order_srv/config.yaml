@@ -1,0 +1,17 @@
+name: 'order_srv'
+tags: ['order_srv']
+mysql:
+    host: '192.168.224.128'
+    port: 3306
+    db: 'myshop_order_srv'
+    password: 'xuanyizhao'
+    user: 'root'
+consul:
+    host: '192.168.224.128'
+    port: 8500
+
+goods_srv:
+    name: 'goods_srv'
+
+inventory_srv:
+    name: 'inventory_srv'

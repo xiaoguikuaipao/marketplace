@@ -1,0 +1,20 @@
+name: 'order_web'
+port: '8028'
+tags: ['myshop', 'order_web']
+inventory_srv:
+    name: 'inventory_srv'
+goods_srv:
+    name: 'goods_srv'
+order_srv:
+    name: 'order_srv'
+
+jwt:
+    key: 'XyzTest'
+
+redis:
+    host: '192.168.224.128'
+    port: 6379
+
+consul:
+    host: '192.168.224.128'
+    port: 8500
